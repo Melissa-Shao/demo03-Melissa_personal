@@ -2,10 +2,10 @@
 title: week03_lecture_demo
 author: Melissa
 
-## *** STEP 2 ***
+*** STEP 2 ***   
 Step Over doesn't go into the function. Step Into goes into the function.
 
-## *** STEP 4 ***
+*** STEP 4 ***   
 What is happening to the stack of function calls?   
 Every time calls the function fibonacci(nth_term), it will make two more calls to itself fibonacci(nth_term - 1) and fibonacci(nth_term - 2). This recursive continues until nth_term is 0 or 1.   
 
